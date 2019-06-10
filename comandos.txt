@@ -1,0 +1,54 @@
+    1  ifconfig
+    2  sudo apt install net-tools
+    3  sudo apt update
+    4  sudo apt install net-tools
+    5  ifconfig
+    6  sudo netstat -ptn | grep ssh
+    7  sudo netstat -ptn 
+    8  sudo netstat -punta
+    9  sudo apt install openssh-server
+   10  sudo systemctl enable ssh
+   11  sudo netstat -punta
+   12  sudo systemctl start ssh
+   13  sudo systemctl sta ssh
+   14  sudo netstat -punta | grep ssh
+   15  cd /etc/ssh/
+   16  ls
+   17  sudo nano ssh_config
+   18  sudo nano sshd_config
+   19  sudo cp sshd_config ~/Documentos/servicios/ssh/
+   20  lsb_release -a
+   21  cd
+   22  sudo apt update
+   23  sudo netstat -punta
+   24* 
+   25  sudo netstat -punta
+   26  sudo systemctl enable nginx
+   27  sudo systemctl restart nginx
+   28  cd /var/www/html/
+   29  ls
+   30  cd /etc/nginx/
+   31  ls
+   32  sudo nano nginx.conf 
+   33  cat /etc/passwd
+   34  ls -lah /var/www/
+   35  ls -lah /var/www/html/
+   36  ls -la
+   37  ls sites-enabled/
+   38  tree
+   39  sudo apt install tree
+   40  tree
+   41  nano sites-enabled/default 
+   42* sites-available/default 
+   43  nano /var/www/html/index.nginx-debian.html 
+   44  sudo nano /var/www/html/index.nginx-debian.html 
+   45  sudo nano /var/www/html/index.nginx-debian.html.back
+   46  cd /var/www/html/
+   47  mv index.nginx-debian.html index.html
+   48  sudo mv index.nginx-debian.html index.html
+   49  ls -la
+   50  cp index.html ~/Documentos/servicios/nginx/
+   51  cp /etc/nginx/nginx.conf ~/Documentos/servicios/nginx/
+   52  cp /etc/nginx/sites-available/default ~/Documentos/servicios/nginx/
+   53  history
+   54  history > ~/Documentos/servicios/comandos.txt
